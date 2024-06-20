@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio da Júlia </title>
+    <link rel="stylesheet" href="style.css"> <!--link para "chamar" o css-->
+    <script defer type="text/javascript" src="main.js"></script>
+</head>
+<body>
+    <center>
+    <section id="julia">
+       <center>
+         Júlia Almeida 
+       </center>
+      </section>
+      <section>
+      <nav>
+        <ul>
+           <li class="menu">
+                <a href="#Sobremim"> Sobre mim</a> 
+            </li>
+            <li class="menu">
+                 <a href="#BaixaroCV"> Baixar CV</a>
+            </li>
+            <li class="menu"> 
+                 <a href="#Contato"> Contato</a>
+            </li>
+            <li class="menu">
+                 <a href="#Projetos"> Projetos</a>
+            </li>
+       </ul>
+    </section>
+       <section>
+       <h1> Habilidades</h1>
+        <p> Aprendo coisas novas com rapidez. <br> </p>
+        <p> Comunicativa  <br> </p>
+        <p> Trabalho em grupo  <br> </p> 
+        <p> Organizada  <br> </p> 
+     </section>
+     <hr>
+    <section>
+        <h1> Objetivos </h1>
+        <p> Aplicar meus conhecimentos acadêmicos <br> </p>
+        <p> Desenvolver habilidades <br> </p>
+        <p> Explorar minha carreira <br> </p>
+    </section>
+    <hr>
+    <section id="Sobremim"> 
+        <h1> Sobre mim </h1>
+        <ul>
+            <li>Apaixonada por aprender e amante da tecnologia.  <br> </li>
+            <li>Estudante de TI desde os 16, mais de 8 cursos extracurricalares durante o ensino médio e uma leve paixão por filosofia.  <br></li>
+            <li>Tenho conhecimento em C++, Java e HTML. <br> </li>
+            <li> Tenho conhecimento básico em Inteligência Artificial. <br></li>
+        </ul>
+    </section>
+        <hr>
+        <section id="Contato">
+            <h1> Contato </h1>
+            <a href="https://www.instagram.com/">
+            <img src="instagram sem fundo.png" alt="">
+            </a>
+            <a href="https://br.linkedin.com/">
+            <img src="linkedin sem fundo.png" alt="">
+            </a>
+            <a href="https://www.google.com/intl/pt_br/gmail/about/">
+            <img src="gmail sem fundo.png" alt="">
+            </a>
+        </section>
+        <section id="BaixaroCV">
+            <h1> Baixar o CV </h1>
+            <a href=#Baixar-CV> Baixar CV</a>
+        </section>
+        <hr>
+        <section>
+            <h1> Projetos </h1>
+            <img id="carrinho" src="https://www.usinainfo.com.br/1027408-thickbox_default/carrinho-arduino-controlado-por-smartphone-montado-e-pronto-para-uso-pl200a-v1.jpg" alt="">
+            <p> Projeto feito em Universidade. </p>
+            <p> Carrinho com arduino, programado na linguagem C++ com o obejtivo de “batalha” entre os carrinhos dos alunos.</p>
+        </section>
+      <section id="projetos">
+        <h3>Calculadora Simples</h3>
+       
+        <p> Calculadora simples feita no SENAI no curso de Desenvolvimento WEB. <br>
+            Programada em JavaScript, HTML e CSS.
+        </p>
+            <p>Primeiro Número</p>
+            <input id="entrada1" type="number" placeholder="Digite um número">
+          
+    
+            <p> Segundo número </p>
+            <input id="entrada2" type="number" placeholder="Digite o segundo número">
+          <br>
+            <button onclick="somar()"> + </button>
+            <button onclick="dividir()"> ÷</button>
+            <button onclick="multiplicar()"> x </button>
+            <button onclick= "subtrair()" > - </button>
+            
+            <p>Resultado</p> 
+            <input id="resultado" type="number">
+            </section>
+            
+            <br>
+            <section id="projetos2">
+            <h1> Caluladora de IMC</h1>
+            <br>
+            <p> Digite seu peso </p>
+            <input id="peso" type="number" placeholder="Peso">
+            <p>Digite sua altura</p>
+            <input id="altura" type="number" placeholder="Altura">
+            <button onclick ="imc()" > Calcular </button>
+            <p>IMC</p>
+            <input id="imc" type="number" placeholder="IMC">
+            <p>Considerações</p>
+            <p id="consideracoes"></p>
+
+      </section>
+
+      
+        <nav>
+            <a href="#julia"> Voltar ao topo</a> 
+        </nav>
+    </center>
+</body>
+</html>

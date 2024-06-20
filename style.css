@@ -1,0 +1,62 @@
+body{ /*cor da página inteira*/
+    background-color: #f8e3c5;
+}
+
+h1{
+    font-family: 'Cambria', Cochin, Georgia;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+p{
+    font-family: '9Trebuchet MS', sans-serif;
+    font-size: 12;
+    color:black;
+}
+hr{
+    /* linha sólida preta com 1 pixel de largura*/
+    border: lpx solid;
+    border-color: #808080;
+    width: 250px;
+}
+
+img{ /*tamanho da imagem*/
+    width: 5%;
+    height: 5%;
+}
+#carrinho{ /*tamanho do carrinho*/
+    width: 10%;
+    height: 10%;
+}
+
+#julia{
+    font-size: 300%;
+}
+  ul{
+    width: 30%;
+  }
+  .menu{
+        display:inline-block;
+  }
+  .menu a{
+    /*Cria ums cx para cada item do menu*/
+    display:inline-block;
+  }
+/*body:active{
+    background-color: black;
+}*/
+
+#projetos{
+ border-width: 5px; 
+border-style: outset; 
+border-color:  rgb(189, 160, 133);
+width: 299px;
+height: 379px
+}
+
+#projetos2{
+ border-width: 5px; 
+border-style: outset; 
+border-color:  rgb(189, 160, 133);
+width: 299px;
+}
